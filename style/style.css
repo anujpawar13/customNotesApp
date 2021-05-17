@@ -14,7 +14,7 @@ html{
 }
 
 #logo{
-    padding: 30px;
+    padding: 10px 25px;
 }
 
 #logo a{
@@ -34,6 +34,7 @@ html{
 }
 
 #navbar ul a{
+    border-radius: 0.25rem;
     padding: 2px 14px;
     margin-right: 40px;
     text-decoration: none;
@@ -50,22 +51,24 @@ html{
 }
 
 nav input{
+    border-radius: 0.25rem;
     position: absolute;
     right: 150px;
     border: none;
     height: 35px;
     width: 230px;
     padding: 0px 10px;
-
+    
 }
 
 nav input:focus{
     box-shadow: 0 11px 12px 0 rgb(0 0 0 / 9%);
     outline: none;
-
+    
 }
 
 #navbar button{
+    border-radius: 0.25rem;
     font-size: 15px;
     padding: 5px 30px;
     color: black;
