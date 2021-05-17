@@ -86,21 +86,21 @@ function deleteNote(index) {
 }
 
 let search = document.getElementById('searchTxt');
-search.addEventListener('input', function(){
+search.addEventListener('input', function () {
     // as we type in search input, this function we get fired!
     let inputVal = search.value.toLowerCase();
     // this will search even if the letters are in capital
 
     let noteCard = document.getElementsByClassName('noteCard');
     // selected the noteCard
-    Array.from(noteCard).forEach(function(element){
+    Array.from(noteCard).forEach(function (element) {
         let cardText = element.getElementsByTagName('p')[0].innerText;
         // grabbing the paragraph's text (actual text of notes)
-        if(cardText.includes(inputVal)){
+        if (cardText.includes(inputVal)) {
             element.style.display = "block";
             // note will be displayed when search text is same as in note
         }
-        else{
+        else {
             element.style.display = "none";
             // note will be hidden when search text is not same as in note
         }
