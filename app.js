@@ -47,7 +47,7 @@ function showNotes() {
         // a new card is created and gets append in html
     });
     let notesElm = document.getElementById("notes");
-    if (notes.length != 0){
+    if (notes.length != 0) {
         notesElm.innerHTML = html;
     }
 }
