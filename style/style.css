@@ -34,20 +34,24 @@ html{
 }
 
 #navbar ul a{
+    cursor: pointer;
+    position: absolute;
     border-radius: 0.25rem;
-    padding: 2px 14px;
-    margin-right: 40px;
     text-decoration: none;
     color: black;
     font-weight: bold;
+    transition: all 0.3s;
+    font-size: 15px;
+    padding: 5px 30px;
+    background-color: white;
+    bottom: 20px;
+    margin-left: -25px;
 }
 
 
 #navbar ul a:hover{
     color: white;
     background-color: rgb(75 158 254);
-    border: 1px solid white;
-    padding: 2px 14px;
 }
 
 nav input{
@@ -58,7 +62,7 @@ nav input{
     height: 35px;
     width: 230px;
     padding: 0px 10px;
-    
+    transition: all 0.3s;
 }
 
 nav input:focus{
@@ -79,13 +83,14 @@ nav input:focus{
     cursor: pointer;
     position: absolute;
     right: 25px;
+    transition: all 0.3s;
 }
 
 #navbar button:hover{
     color: white;
     font-weight: bold;
+    border: 2px solid rgb(75 158 254);
     background-color: rgb(75 158 254);
-    border: 2px solid white;
     cursor: pointer;
 }
 
